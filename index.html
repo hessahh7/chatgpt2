@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Candy Shop</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .image-container {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .description-container {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  .description-container h2 {
+    color: #333;
+  }
+  .description-container p {
+    color: #333;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Candy Shop</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="image-container">
+    <img src="https://via.placeholder.com/400" alt="Candies">
+  </div>
+  <div class="description-container">
+    <h2>Delicious Candies</h2>
+    <p>Indulge in our wide selection of candies, from sour gummies to chocolate treats. We have something for every sweet tooth!</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+    <button onclick="alert('Item favorited!')">Add to Favorites</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Candy Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
